@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.menu-toggle{
+    height: 5rem;
+    width:4rem;
+    font-size: 3rem;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    position:absolute;
+    top:2rem;
+    left:4rem;
+}
+
+.tool-cont{
+    height:5rem;
+    width:45rem;
+    display:flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    top:2rem;
+    left:20rem;
+
+}
+
+
+.tool-options{
+    height: 4rem;
+    width:4rem;
+    font-size: 3rem;
+    /* background-color: aliceblue; */
+}
+
+
+.pencil-tools-cont{
+    background-color:aliceblue;
+    width:5rem;
+    height:5rem;
+    padding:0.5rem;
+    position: absolute;
+    top:7rem;
+    left:20rem;
+    display: none;
+}
+
+.pencil-size{
+    width:4rem;
+}
+
+.pencil-color-cont{
+    display:flex;
+    padding-top:1rem;
+    justify-content: space-around;
+
+}
+.pencil-color{
+    width:1rem;
+    height:1rem;
+    background-color: aliceblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.eraser-size{
+    width:4rem;
+    
+}
+
+.eraser-tool-cont{
+    width:5rem;
+    height:5rem;
+    padding:0.5rem;
+    background-color: aliceblue;
+    position: absolute;
+    top:7rem;
+    left:27rem;
+    display: none;
+}
+
+.sticky-note-cont{
+    height:16rem;
+    width:16rem;
+    /* background-color: aliceblue; */
+    position:absolute;
+    top:10rem;
+    left:10rem;
+}
+
+.sticky-header{
+    height:2rem;
+    width:100%;
+    background-color: rgb(192, 214, 233);
+    display:flex;
+    padding:0.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.sticky-header > *{
+    width:1rem;
+    height:1rem;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+.minimize{
+    background-color: #0be881
+}
+
+.delete-sticky{
+    background-color: #ef5777;
+}
+
+.sticky-content{
+    height: 14rem;
+    
+}
+
+textarea{
+    height:100%;
+    width:100%;
+    outline:none;
+    resize: none;
+    border: none;
+    background-color: azure;
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
