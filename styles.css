@@ -5,6 +5,7 @@
 body{
     margin:0;
     padding:0;
+    background-color: white;
 }
 
 .menu-toggle{
@@ -135,6 +136,23 @@ body{
     
 }
 
+.scale-tool-cont{
+    animation: scale-tool-cont;
+    animation-duration: 1s;
+}
+
+@keyframes scale-tool-cont {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
 textarea{
     height:100%;
     width:100%;
@@ -148,4 +166,9 @@ img{
     height:100%;
     width:100%;
     object-fit: fill;
+}
+
+
+canvas{
+    background-color: white;
 }
